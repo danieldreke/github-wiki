@@ -8,12 +8,10 @@ on:
       - '.github/workflows/**.yml'  
 
 jobs:
-  update-wiki:
+  wiki-to-github-pages:
     runs-on: ubuntu-latest
+    
     steps:
-#      - name: Check out repository
-#        uses: actions/checkout@v3
-#
       - name: Check out wiki
         uses: actions/checkout@v3
         with:
@@ -24,3 +22,15 @@ jobs:
         run: ls .
         #./your-script.sh
 #        working-directory: ./wiki
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
