@@ -3,6 +3,9 @@ name: Wiki Update
 on:
   gollum:
   workflow_dispatch:
+  push:
+    paths:
+      - '/.github/workflows/**.yml'  
 
 jobs:
   update-wiki:
