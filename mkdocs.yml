@@ -1,0 +1,6 @@
+site_name: GitHub Wiki to Github Pages via mkdocs and GitHub Actions
+nav:
+  - Home: index.md
+  - About: about.md
+theme:
+  name: material
