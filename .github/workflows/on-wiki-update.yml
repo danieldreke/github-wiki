@@ -17,10 +17,10 @@ jobs:
       - name: Check out wiki
         uses: actions/checkout@v3
         with:
-          repository: ${{github.repository}}
-          path: 'wiki'
+          repository: ${{github.repository}}/wiki
+#          path: 'wiki'
 
       - name: Run custom script
         run: ls .
         #./your-script.sh
-        working-directory: ./wiki
+#        working-directory: ./wiki
