@@ -17,7 +17,7 @@ jobs:
       - name: Check out wiki
         uses: actions/checkout@v3
         with:
-          repository: ${{github.repository}}/wiki
+          repository: ${{github.repository}}.wiki
 #          path: 'wiki'
 
       - name: Run custom script
