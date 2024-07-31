@@ -21,6 +21,6 @@ jobs:
           path: 'wiki'
 
       - name: Run custom script
-        run: echo "Ping"
+        run: ls .
         #./your-script.sh
         working-directory: ./wiki
