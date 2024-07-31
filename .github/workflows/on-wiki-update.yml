@@ -8,15 +8,15 @@ jobs:
   update-wiki:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v3
-
-      - name: Check out wiki
-        uses: actions/checkout@v3
-        with:
-          repository: 'user/repo.wiki'
-          path: 'wiki'
-
+#      - name: Check out repository
+#        uses: actions/checkout@v3
+#
+#      - name: Check out wiki
+#        uses: actions/checkout@v3
+#        with:
+#          repository: 'user/repo.wiki'
+#          path: 'wiki'
+#
       - name: Run custom script
         run: echo "Ping"
         #./your-script.sh
