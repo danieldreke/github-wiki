@@ -1,5 +1,7 @@
 site_name: GitHub Wiki to Github Pages via mkdocs and GitHub Actions
 site_url: https://danieldreke.github.io/github-wiki/
+repo_url: https://github.com/danieldreke/github-wiki
+#edit_uri: edit/main/docs/
 #nav:
 #  - Home: index.md
 #  - About: about.md
