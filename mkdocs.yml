@@ -10,6 +10,7 @@ edit_uri: ./{page.url.rstrip('/')}/_edit
 #  - Home: index.md
 #  - About: about.md
 plugins:
+  - search
   - mkdocs-video
   - i18n:
       docs_structure: folder
