@@ -1,9 +1,11 @@
 site_name: GitHub Wiki to Github Pages via mkdocs and GitHub Actions
 site_url: https://danieldreke.github.io/github-wiki/
 repo_url: https://github.com/danieldreke/github-wiki/wiki
-edit_uri: ./_edit
-extra_javascript:
-  - fix-edit-on-github-links.js
+# edit_uri: ./_edit
+edit_uri: ./{page.url.rstrip('/')}/_edit
+#edit_uri: edit/{page.url.rstrip('/')}
+# extra_javascript:
+  # - fix-edit-on-github-links.js
 #nav:
 #  - Home: index.md
 #  - About: about.md
