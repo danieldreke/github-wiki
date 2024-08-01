@@ -7,6 +7,9 @@ on:
     paths:
       - '.github/workflows/**.yml'  
 
+permissions:
+  contents: write      
+
 jobs:
   wiki-to-github-pages:
     runs-on: ubuntu-latest
