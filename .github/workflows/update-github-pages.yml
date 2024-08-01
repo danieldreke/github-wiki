@@ -41,7 +41,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-video
+          pip install mkdocs-material mkdocs-static-i18n mkdocs-video
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
