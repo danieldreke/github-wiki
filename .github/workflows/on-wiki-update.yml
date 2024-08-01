@@ -12,6 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+        with:
+          repository: ${{github.repository}}
+
+      - name: Run custom script
+        run: ls -a
+          
       - name: Check out wiki
         uses: actions/checkout@v3
         with:
