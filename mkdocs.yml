@@ -31,5 +31,5 @@ theme:
   prev_next_buttons_location: none
   logo: https://www.hotmaps-project.eu/wp-content/uploads/2017/03/logo_footer.svg
 docs_dir: wiki
-hooks:
-  - fix_edit_url.py
+# hooks:
+  # - fix_edit_url.py
