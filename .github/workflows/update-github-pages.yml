@@ -13,35 +13,23 @@ permissions:
 jobs:
   wiki-to-github-pages:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
         with:
           repository: ${{github.repository}}
-
-      - name: Run custom script
-        run: ls -a
-          
       - name: Check out wiki
         uses: actions/checkout@v3
         with:
           repository: ${{github.repository}}.wiki
           path: 'wiki'
-
-      - name: Run custom script
-        run: ls wiki
-        #./your-script.sh
-#        working-directory: ./wiki
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-
+          python-version: 3.x
       - name: Install dependencies
-        run: |
-          pip install mkdocs-material mkdocs-static-i18n mkdocs-video
-
+        run: pip3 install -U -r requirements.txt
+        # run: |
+          # pip install mkdocs-material mkdocs-static-i18n mkdocs-video
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
