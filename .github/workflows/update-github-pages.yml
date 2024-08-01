@@ -1,5 +1,4 @@
-name: Wiki Update
-
+name: Update Github Pages
 on:
   gollum:
   workflow_dispatch:
@@ -42,7 +41,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material
+          pip install mkdocs-material mkdocs-video
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
