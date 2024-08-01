@@ -1,8 +1,8 @@
 site_name: GitHub Wiki to Github Pages via mkdocs and GitHub Actions
 site_url: https://danieldreke.github.io/github-wiki/
 repo_url: https://github.com/danieldreke/github-wiki/wiki
-# edit_uri: ./_edit
-edit_uri: ./{page.url.rstrip('/')}/_edit
+edit_uri: ./_edit
+# edit_uri: ./{page.url.rstrip('/')}/_edit
 #edit_uri: edit/{page.url.rstrip('/')}
 # extra_javascript:
   # - fix-edit-on-github-links.js
@@ -31,5 +31,5 @@ theme:
   prev_next_buttons_location: none
   logo: https://www.hotmaps-project.eu/wp-content/uploads/2017/03/logo_footer.svg
 docs_dir: wiki
-# hooks:
-  # - fix_edit_url.py
+hooks:
+  - fix_edit_url.py
