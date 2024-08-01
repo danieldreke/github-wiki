@@ -20,5 +20,5 @@ theme:
   prev_next_buttons_location: none
   logo: https://www.hotmaps-project.eu/wp-content/uploads/2017/03/logo_footer.svg
 docs_dir: wiki
-plugins:
-  - fix_edit_url:
+hooks:
+  - fix_edit_url.py
