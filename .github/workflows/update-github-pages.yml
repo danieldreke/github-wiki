@@ -26,6 +26,7 @@ jobs:
           repository: ${{github.repository}}.wiki
           path: 'docs'
       - run: mv docs/Home.md docs/index.md
+      - run: cp custom.css docs/
       # - run: cp docs/Home.md docs/index.md
       - name: Set up Python
         uses: actions/setup-python@v5
