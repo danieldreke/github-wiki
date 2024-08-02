@@ -3,6 +3,8 @@ on:
   gollum:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - '**.yml'  
 #      - '.github/workflows/**.yml'  
