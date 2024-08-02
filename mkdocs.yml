@@ -71,4 +71,4 @@ theme:
 hooks:
   - fix_edit_url.py
 extra_css:
-    - custom.css  
+    - ./custom.css  
