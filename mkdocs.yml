@@ -14,16 +14,22 @@ plugins:
   - search
   - mkdocs-video
   - i18n:
-      # docs_structure: folder
-      docs_structure: suffix
+      default_language: en
       languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
-        - locale: fr
-          name: Français
-          build: true
+        - en
+        - de
+        - fr
+  # - i18n:
+  #     # docs_structure: folder
+  #     docs_structure: suffix      
+  #     languages:
+  #       - locale: en
+  #         default: true
+  #         name: English
+  #         build: true
+  #       - locale: fr
+  #         name: Français
+  #         build: true
 theme:
   name: material
   # name: readthedocs
