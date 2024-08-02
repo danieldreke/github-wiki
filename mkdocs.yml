@@ -42,7 +42,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       # scheme: default
       primary: light blue
-      primary: #0AA7B8
+      # primary: #0AA7B8
       accent: deep purple
       toggle:
         icon: material/weather-sunny
