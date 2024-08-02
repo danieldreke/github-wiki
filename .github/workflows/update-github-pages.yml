@@ -23,7 +23,7 @@ jobs:
         with:
           repository: ${{github.repository}}.wiki
           path: 'wiki'
-      - run: cp wiki/Home.md wiki/index.md
+      - run: mv wiki/Home.md wiki/index.md
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
