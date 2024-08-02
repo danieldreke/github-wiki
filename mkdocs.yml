@@ -65,6 +65,6 @@ theme:
     toggle:
       icon: material/weather-night
       name: Switch to light mode
-docs_dir: wiki
+# docs_dir: wiki
 hooks:
   - fix_edit_url.py
