@@ -15,10 +15,17 @@ plugins:
   - mkdocs-video
   - i18n:
       default_language: en
+      # languages:
+      #   - en: English
+      #   - de: Deutsch
+      #   - fr: Français
       languages:
-        - en: English
-        - de: Deutsch
-        - fr: Français
+        - locale: en
+          name: English
+        - locale: de
+          name: Deutsch
+        - locale: fr
+          name: Français
   # - i18n:
   #     # docs_structure: folder
   #     docs_structure: suffix      
