@@ -22,8 +22,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: ${{github.repository}}.wiki
-          path: 'wiki'
-      - run: mv wiki/Home.md wiki/index.md
+          path: 'docs'
+      - run: mv docs/Home.md docs/index.md
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
