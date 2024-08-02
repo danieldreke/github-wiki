@@ -2,9 +2,6 @@ site_name: Hotmaps Wiki
 site_url: https://danieldreke.github.io/github-wiki/
 repo_url: https://github.com/danieldreke/github-wiki/wiki
 edit_uri: ./_edit
-nav:
-  - Home: 'Home.md'
-  - '*'
 # edit_link_title: Edit on GitHub
 # edit_uri: ./{page.url.rstrip('/')}/_edit
 #edit_uri: edit/{page.url.rstrip('/')}
