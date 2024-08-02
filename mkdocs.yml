@@ -14,16 +14,19 @@ plugins:
   - search
   - mkdocs-video
   - i18n:
-      default_language: en
+      # default_language: en
       # languages:
       #   - en: English
       #   - de: Deutsch
       #   - fr: Français
       languages:
         - locale: en
+          default: true
           name: English
+          build: true
         - locale: de
           name: Deutsch
+          build: true
         - locale: fr
           name: Français
   # - i18n:
