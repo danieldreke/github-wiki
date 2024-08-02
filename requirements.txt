@@ -1,3 +1,4 @@
 mkdocs-material 
 mkdocs-static-i18n 
 mkdocs-video
+mkdocs-git-revision-date-localized-plugin
