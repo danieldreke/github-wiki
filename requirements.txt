@@ -2,4 +2,4 @@ mkdocs-material
 mkdocs-static-i18n 
 mkdocs-video
 pymdown-extensions
-mkdocs-ezlinks
+mkdocs-ezlinks-plugin
