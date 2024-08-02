@@ -55,14 +55,16 @@ theme:
   palette:
   - media: "(prefers-color-scheme: light)"
     scheme: default
-    primary: light blue
+    # primary: light blue
+    primary: #0AA7B8
     accent: deep purple
     toggle:
       icon: material/weather-sunny
       name: Switch to dark mode
   - media: "(prefers-color-scheme: dark)"
     scheme: slate
-    primary: cyan
+    # primary: cyan
+    primary: #0AA7B8
     accent: deep purple
     toggle:
       icon: material/weather-night
