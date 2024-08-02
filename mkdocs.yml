@@ -32,6 +32,7 @@ plugins:
   #         build: true
 theme:
   name: material
+  language: en  # Set your default language
   # name: readthedocs
   features:
     - content.action.edit
