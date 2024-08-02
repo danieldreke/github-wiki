@@ -70,3 +70,5 @@ theme:
 # docs_dir: wiki
 hooks:
   - fix_edit_url.py
+extra_css:
+    - custom.css  
