@@ -9,11 +9,11 @@ extra_css:
   - ./custom.css
 markdown_extensions:
   - attr_list  # allows empty anchor links like [](){#top}
-  - mkdocs-ezlinks  # allows [[Page Name]] links
   - pymdownx.magiclink  # converts bare URLs into hyperlinks
 plugins:
   - search
   - mkdocs-video
+  - ezlinks  # allows [[Page Name]] links
   - i18n:
       # docs_structure: folder
       # docs_structure: suffix
