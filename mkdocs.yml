@@ -6,7 +6,9 @@ edit_uri: ./_edit
 hooks:
   - fix_edit_url.py
 extra_css:
-  - ./custom.css  
+  - ./custom.css
+markdown_extensions:
+  - attr_list  
 plugins:
   - search
   - mkdocs-video
