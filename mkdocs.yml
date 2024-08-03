@@ -68,17 +68,17 @@ theme:
   logo: https://www.hotmaps-project.eu/wp-content/themes/JointsWP/assets/images/logo_menu.svg
   palette:
     - media: "(prefers-color-scheme: light)"
-      # scheme: default
+      scheme: default
       # primary: light blue
-      scheme: youtube
+      # scheme: youtube
       # primary: #0AA7B8
       accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      # scheme: slate
-      scheme: youtube
+      scheme: slate
+      # scheme: youtube
       # primary: cyan
       # primary: #0AA7B8
       accent: deep purple
