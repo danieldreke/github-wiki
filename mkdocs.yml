@@ -21,7 +21,7 @@ nav:
     - Welcome Page: index.md
   - Data sets:
     - 'Hotmaps data set: Method of data collection': 'Hotmaps-data-set:-Method-of-data-collection.md'
-    - 'Hotmaps open data repositories': Hotmaps-open-data-repositories.md
+    # - 'Hotmaps open data repositories': Hotmaps-open-data-repositories.md
   - For Authors:
     - How to Embed Videos: Embedded-Video-Examples.md
   # #   - '*'
