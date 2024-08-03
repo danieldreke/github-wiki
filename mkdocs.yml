@@ -7,9 +7,9 @@ hooks:
   - fix_edit_url.py
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/danieldreke/github-wiki/wiki
+  # social:
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/danieldreke/github-wiki/wiki
 extra_css:
   - ./custom.css
 markdown_extensions:
