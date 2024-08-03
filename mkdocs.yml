@@ -51,7 +51,8 @@ theme:
   features:
     - content.action.edit
     - navigation.instant  # make page behave like Single Page Application
-    - navigation.sections  # disable collapsing of sections
+    # - navigation.sections  # disable collapsing of sections
+    - navigation.expand  # expand all collapsible subsections by default
   user_color_mode_toggle: true
   prev_next_buttons_location: none
   # logo: https://www.hotmaps-project.eu/wp-content/uploads/2017/03/logo_footer.svg
