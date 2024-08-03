@@ -47,6 +47,8 @@ theme:
   # name: readthedocs
   language: en
   locale: en
+  font:
+    text: Ubuntu
   favicon: https://wiki.hotmaps.hevs.ch/Home/favicon.png
   icon:
     repo: fontawesome/brands/github
