@@ -29,6 +29,14 @@ plugins:
   #         build: true
   #       - locale: fr
   #         name: Français
+nav:
+  - 'Wiki Introduction':
+    - Welcome Page: 'index.md'
+  - Data sets:
+    # - 'Writing your docs': 'writing-your-docs.md'
+  - 'For Authors':
+    - Embedded Video Examples: Embedded-Video-Examples.md
+  #   - '*'
 theme:
   name: material
   # name: readthedocs
