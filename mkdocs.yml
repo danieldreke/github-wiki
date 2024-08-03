@@ -7,6 +7,9 @@ hooks:
   - fix_edit_url.py
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/danieldreke/github-wiki/wiki
 extra_css:
   - ./custom.css
 markdown_extensions:
@@ -18,7 +21,7 @@ nav:
     - Welcome Page: index.md
   - Data sets:
     - 'Hotmaps data set: Method of data collection': Hotmaps-data-set-method-of-data-collection.md
-    - Hotmaps open data repositories: index.md
+    - 'Hotmaps open data repositories': index.md
   - For Authors:
     - How to Embed Videos: Embedded-Video-Examples.md
   # #   - '*'
