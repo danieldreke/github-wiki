@@ -70,20 +70,17 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       # primary: light blue
-      primary: teal
-      # scheme: youtube
+      primary: cyan
       # primary: #0AA7B8
-      accent: deep purple
+      # accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      # scheme: youtube
-      # primary: cyan
-      primary: teal
+      primary: cyan
       # primary: #0AA7B8
-      accent: deep purple
+      # accent: deep purple
       toggle:
         icon: material/weather-night
         name: Switch to light mode
