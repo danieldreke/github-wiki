@@ -71,7 +71,7 @@ theme:
       scheme: default
       # primary: light blue
       primary: cyan
-      accent: light blue
+      accent: cyan
       # primary: #0AA7B8
       # accent: deep purple
       toggle:
