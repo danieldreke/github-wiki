@@ -71,6 +71,7 @@ theme:
       scheme: default
       # primary: light blue
       primary: cyan
+      accent: light blue
       # primary: #0AA7B8
       # accent: deep purple
       toggle:
@@ -81,6 +82,7 @@ theme:
       primary: cyan
       # primary: #0AA7B8
       # accent: deep purple
+      accent: cyan
       toggle:
         icon: material/weather-night
         name: Switch to light mode
