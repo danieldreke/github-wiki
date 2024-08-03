@@ -15,11 +15,12 @@ markdown_extensions:
 nav:
   # - Welcome Page: 'index.md'
   - Wiki Introduction:
-    - Welcome Page: 'index.md'
-  # - Data sets:
-  #   # - 'Writing your docs': 'writing-your-docs.md'
-  # - 'For Authors':
-  #   - Embedded Video Examples: Embedded-Video-Examples.md
+    - Welcome Page: index.md
+  - Data sets:
+    - 'Hotmaps data set: Method of data collection': Hotmaps-data-set-method-of-data-collection.md
+    - Hotmaps open data repositories: index.md
+  - For Authors:
+    - How to Embed Videos: Embedded-Video-Examples.md
   # #   - '*'
 plugins:
   - search
