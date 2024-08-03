@@ -47,7 +47,9 @@ theme:
   # name: readthedocs
   language: en
   locale: en
-  favicon: https://wiki.hotmaps.hevs.ch/Home/favicon.png  
+  favicon: https://wiki.hotmaps.hevs.ch/Home/favicon.png
+  icon:
+    repo: fontawesome/brands/github
   features:
     - content.action.edit
     - navigation.instant  # make page behave like Single Page Application
