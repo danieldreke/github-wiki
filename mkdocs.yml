@@ -5,8 +5,8 @@ edit_uri: ./_edit
 # docs_dir: wiki
 hooks:
   - fix_edit_url.py
-extras:
-  generator: false
+# extras:
+#   generator: false
 extra_css:
   - ./custom.css
 markdown_extensions:
@@ -30,13 +30,14 @@ plugins:
   #       - locale: fr
   #         name: Français
 nav:
-  - 'Wiki Introduction':
-    - Welcome Page: 'index.md'
-  - Data sets:
-    # - 'Writing your docs': 'writing-your-docs.md'
-  - 'For Authors':
-    - Embedded Video Examples: Embedded-Video-Examples.md
-  #   - '*'
+  - Welcome Page: 'index.md'
+  # - 'Wiki Introduction':
+  #   - Welcome Page: 'index.md'
+  # - Data sets:
+  #   # - 'Writing your docs': 'writing-your-docs.md'
+  # - 'For Authors':
+  #   - Embedded Video Examples: Embedded-Video-Examples.md
+  # #   - '*'
 theme:
   name: material
   # name: readthedocs
