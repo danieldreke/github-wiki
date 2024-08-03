@@ -70,6 +70,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       # primary: light blue
+      primary: teal
       # scheme: youtube
       # primary: #0AA7B8
       accent: deep purple
@@ -80,6 +81,7 @@ theme:
       scheme: slate
       # scheme: youtube
       # primary: cyan
+      primary: teal
       # primary: #0AA7B8
       accent: deep purple
       toggle:
