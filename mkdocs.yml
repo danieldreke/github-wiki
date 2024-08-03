@@ -51,6 +51,7 @@ theme:
   locale: en
   font:
     text: Ubuntu
+    code: Ubuntu Mono
   favicon: https://wiki.hotmaps.hevs.ch/Home/favicon.png
   icon:
     repo: fontawesome/brands/github
