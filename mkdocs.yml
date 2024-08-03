@@ -5,6 +5,8 @@ edit_uri: ./_edit
 # docs_dir: wiki
 hooks:
   - fix_edit_url.py
+extras:
+  generator: false
 extra_css:
   - ./custom.css
 markdown_extensions:
