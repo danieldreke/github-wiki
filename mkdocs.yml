@@ -5,7 +5,7 @@ edit_uri: ./_edit
 # docs_dir: wiki
 hooks:
   - fix_edit_url.py
-extras:
+extra:
   generator: false
 extra_css:
   - ./custom.css
@@ -14,7 +14,7 @@ markdown_extensions:
   - pymdownx.magiclink  # converts bare URLs into hyperlinks
 nav:
   # - Welcome Page: 'index.md'
-  - 'Wiki Introduction':
+  - Wiki Introduction:
     - Welcome Page: 'index.md'
   # - Data sets:
   #   # - 'Writing your docs': 'writing-your-docs.md'
