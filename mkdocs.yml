@@ -19,9 +19,11 @@ nav:
   # - Welcome Page: 'index.md'
   - Wiki Introduction:
     - Welcome Page: index.md
-  - Data sets:
+  - Data Sets:
     - 'Hotmaps data set: Method of data collection': 'Hotmaps-data-set:-Method-of-data-collection.md'
     # - 'Hotmaps open data repositories': Hotmaps-open-data-repositories.md
+  - General Tool Functionalities & Structure:
+    - Introduction To User Interface: Introduction-To-User-Interface.md
   - For Authors:
     - How to Embed Videos: Embedded-Video-Examples.md
   # #   - '*'
