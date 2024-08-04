@@ -4,7 +4,7 @@ repo_url: https://github.com/danieldreke/github-wiki/wiki
 
 nav:
   - Wiki Introduction:
-    - Welcome Page: Home.md
+    - Welcome Page: index.md
   - Data Sets:
     - 'Hotmaps Data Set: Method Of Data Collection': 'Hotmaps-Data-Set:-Method-Of-Data-Collection.md'
     # - Hotmaps open data repositories: Hotmaps-open-data-repositories.md
