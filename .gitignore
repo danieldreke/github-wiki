@@ -1,2 +1,4 @@
 github-wiki.wiki
 docs
+*.pyc
+*.swp
