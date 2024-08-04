@@ -27,7 +27,7 @@ jobs:
           path: 'docs'
       - run: mv docs/Home.md docs/index.md
       # - run: cp docs/Home.md docs/index.md
-      # - run: cp custom.css docs/
+      - run: cp custom.css docs/
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
