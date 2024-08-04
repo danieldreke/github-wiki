@@ -38,19 +38,19 @@ plugins:
   - search
   # - mkdocs-video
   - ezlinks  # allows [[Page Name]] links
-  - i18n:
-      # docs_structure: folder
-      # docs_structure: suffix
-      languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
-        - locale: de
-          name: Deutsch (Work in progress)
-          build: true
-  #       - locale: fr
-  #         name: Français
+  # - i18n:
+  #     # docs_structure: folder
+  #     # docs_structure: suffix
+  #     languages:
+  #       - locale: en
+  #         default: true
+  #         name: English
+  #         build: true
+  #       - locale: de
+  #         name: Deutsch (Work in progress)
+  #         build: true
+  # #       - locale: fr
+  # #         name: Français
 theme:
   name: material
   # name: readthedocs

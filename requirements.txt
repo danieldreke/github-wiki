@@ -1,5 +1,5 @@
-mkdocs-material 
-mkdocs-static-i18n 
+mkdocs-material
+mkdocs-static-i18n
 mkdocs-video
 pymdown-extensions
 mkdocs-ezlinks-plugin
