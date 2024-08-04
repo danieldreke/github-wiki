@@ -11,7 +11,7 @@ extra:
   #   - icon: fontawesome/brands/github
   #     link: https://github.com/danieldreke/github-wiki/wiki
 extra_css:
-  - ./custom.css
+  - custom.css
 markdown_extensions:
   - attr_list  # allows empty anchor links like [](){#top}
   - pymdownx.magiclink  # converts bare URLs into hyperlinks
