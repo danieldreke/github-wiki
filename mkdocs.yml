@@ -4,7 +4,7 @@ repo_url: https://github.com/danieldreke/github-wiki/wiki
 
 nav:
   - Wiki Introduction:
-    - Welcome Page: index.md
+    - Welcome Page: Home.md
   - Data Sets:
     - 'Hotmaps Data Set: Method Of Data Collection': 'Hotmaps-Data-Set:-Method-Of-Data-Collection.md'
     # - Hotmaps open data repositories: Hotmaps-open-data-repositories.md
@@ -12,7 +12,7 @@ nav:
     - Introduction To User Interface: Introduction-To-User-Interface.md
   - For Authors:
     - How to Embed Videos: Embedded-Video-Examples.md
-    
+
 edit_uri: ./_edit
 # docs_dir: wiki
 hooks:
@@ -36,7 +36,7 @@ markdown_extensions:
   - pymdownx.superfences
 plugins:
   - search
-  - mkdocs-video
+  # - mkdocs-video
   - ezlinks  # allows [[Page Name]] links
   - i18n:
       # docs_structure: folder
@@ -71,7 +71,7 @@ theme:
     - navigation.path
     - navigation.footer
     # - navigation.tracking  # should add tracking but does not seem to work
-    - content.code.copy  # 
+    - content.code.copy  #
     # - search.highlight  # disabled as not known how user can toggle this feature
   user_color_mode_toggle: true
   # prev_next_buttons_location: none
@@ -83,16 +83,13 @@ theme:
       # primary: light blue
       primary: cyan
       accent: cyan
-      # primary: #0AA7B8
-      # accent: deep purple
+      # primary: #0AA7B8  # hotmaps cyan
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: cyan
-      # primary: #0AA7B8
-      # accent: deep purple
       accent: cyan
       toggle:
         icon: material/weather-night
